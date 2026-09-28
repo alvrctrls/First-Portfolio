@@ -16,7 +16,7 @@ body {
 }
 
 
-/* MAIN */
+/*main*/
 
 main {
     display: flex;
@@ -29,7 +29,7 @@ main {
 }
 
 
-/* CARDS */
+/*the cards*/
 
 .cards {
     flex: 7;
@@ -51,7 +51,7 @@ main {
 }
 
 
-/* ALL CARDS */
+/*all cards individually*/
 
 .card1,
 .card2,
@@ -81,7 +81,7 @@ main {
 }
 
 
-/* CARD POSITIONS */
+/* position of cards */
 
 .card1 {
     left: 0;
@@ -101,7 +101,7 @@ main {
 }
 
 
-/* CARD IMAGES */
+/* card image */
 
 .card1 img,
 .card2 img,
@@ -119,7 +119,7 @@ main {
 }
 
 
-/* CARD TEXT */
+/* card text */
 
 .card1 h3,
 .card2 h3,
@@ -143,7 +143,7 @@ main {
 }
 
 
-/* IMAGE LINK */
+/* imgae link */
 
 .card2 a {
     display: block;
@@ -155,7 +155,7 @@ main {
 }
 
 
-/* HOVER */
+/* hover effect*/
 
 .card1:hover,
 .card2:hover,
@@ -164,7 +164,7 @@ main {
 }
 
 
-/* CARD 1 */
+/* card 1 radio*/
 
 #card1:checked ~ .card1 {
     transform: translateX(110%) rotate(4deg);
@@ -187,7 +187,7 @@ main {
 }
 
 
-/* CARD 2 */
+/* card 2 radio */
 
 #card2:checked ~ .card2 {
     transform: translateX(110%) rotate(4deg);
@@ -210,7 +210,7 @@ main {
 }
 
 
-/* CARD 3 */
+/* card 3 radio */
 
 #card3:checked ~ .card3 {
     transform: translateX(110%) rotate(4deg);
@@ -233,7 +233,7 @@ main {
 }
 
 
-/* RIGHT SIDE */
+/* right side info */
 
 .the-right {
     flex: 3;
@@ -259,7 +259,7 @@ main {
 }
 
 
-/* PROFILE IMAGE */
+/* pfp */
 
 .profile img {
     width: 190px;
@@ -296,7 +296,7 @@ main {
 }
 
 
-/* FOOTER */
+/* footer*/
 
 #links {
     background-color: rgb(37, 37, 37);
